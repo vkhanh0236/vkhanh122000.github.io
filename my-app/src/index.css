@@ -290,6 +290,16 @@ header .count {
   border-radius: 5px;
 }
 
+.modal{
+  padding: 1rem;
+  background-color: #7d7d7d;
+  position: fixed;
+  top: 42%;
+  left: 45%;
+  display: block;
+  text-align: end;
+  color: white;
+}
 /* --- SMALL SCREEN --- */
 @media all and (max-width: 599px) {
   .thumbnail img {
