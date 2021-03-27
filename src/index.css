@@ -1,0 +1,24 @@
+.modalDelete{
+  position: fixed;
+  top: 40% ;
+  left:  40%;
+  text-align: end;
+  background-color: aqua;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+.modalDelete>button{
+  margin-left: 1rem;
+}
+.modalAdd{
+  position: fixed;
+  background-color: gray;
+  color: white;
+  top: 40%;
+  left: 40%;
+  width: 500px;
+}
+.modalAdd>label>input{
+  width: 100%;
+}
