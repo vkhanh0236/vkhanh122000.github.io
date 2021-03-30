@@ -42,7 +42,7 @@ export default function ModalAdd({
           ></input>
         </label>
       </div>
-      <button className="btn btn-success" onClick={saveProfile}>
+      <button className="btn btn-success" onClick={() => saveProfile()}>
         save
       </button>
       <button

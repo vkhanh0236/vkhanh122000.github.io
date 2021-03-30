@@ -25,7 +25,7 @@ function App() {
   const [phoneInput, setPhoneInput] = useState("");
   const saveProfile = () => {
     const newStudent = {id : 500 , name : nameInput , birthday : birthdayInput , email : emailInput }
-    const news = [...STUDENTS]
+    const news = [...students]
     setStudents(news.unshift(newStudent))
     console.log(news)
   }
